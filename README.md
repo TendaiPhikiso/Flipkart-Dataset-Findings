@@ -2,7 +2,6 @@
    Flipkart Dataset Findings
  </h2>
 
-
    ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/a34a5855-26f1-4b7f-a0e8-75f69a341df9)
    
 1. **Introduction**
@@ -10,30 +9,35 @@
    - Purpose of the Analysis
 
 ## Data Description 
-### Source of the Dataset
+#### Source of the Dataset
 
 - The dataset used in this analysis is sourced from Kaggle.
 
-### Structure and Format
+#### Structure and Format
 
 - The dataset is presented in Excel.
 - It consists of 393,120 rows and 14 columns.
 
-### Variables and Features
-- The cleaned dataset includes the following key variables and features:
-- 
-#### Example:
-- **Column 1:**
-  - Description: [Provide a short description of what the data in this column represents.]
+#### Variables and Features
+The cleaned dataset includes the following key variables and features:
+<details>
+<summary>
+Click to view key variables
+</summary>
+  
 
-- **Column 2:**
-  - Description: [Provide a short description of what the data in this column represents.]
+1. product_id: [Provide a short description of what the data in this column represents.]
+2. actual_price: [Provide a short description of what the data in this column represents.]
+3. average_rating: [Provide a short description of what the data in this column represents.]
+4. category: [Provide a short description of what the data in this column represents.]
+5. discount: [Provide a short description of what the data in this column represents.]
+6. out_of_stock: [Provide a short description of what the data in this column represents.]
+7. seller: [Provide a short description of what the data in this column represents.]
+8. selling_price: [Provide a short description of what the data in this column represents.]
+9. sub_category: [Provide a short description of what the data in this column represents.]
+10. brand : [Provide a short description of what the data in this column represents.]
 
-- **Column 3:**
-  - Description: [Provide a short description of what the data in this column represents.]
-
-[Continue listing the variables and features as needed.]
-
+</details>
 
 
 ## Problem Statement
