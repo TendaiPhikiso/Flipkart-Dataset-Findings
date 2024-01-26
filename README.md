@@ -12,10 +12,12 @@
 #### Source of the Dataset
 
 - The dataset used in this analysis is sourced from Kaggle.
+- Data used from this analysis was collected in 2021
 
 #### Structure and Format
 
 - The dataset is presented in Excel.
+- Currency used is ₹ Indian Rupee
 - It consists of 393,120 rows and 14 columns.
 
 #### Variables and Features
@@ -25,7 +27,6 @@ The cleaned dataset includes the following key variables and features:
 Click to view key variables
 </summary>
   
-
 1. product_id: [Provide a short description of what the data in this column represents.]
 2. actual_price: [Provide a short description of what the data in this column represents.]
 3. average_rating: [Provide a short description of what the data in this column represents.]
