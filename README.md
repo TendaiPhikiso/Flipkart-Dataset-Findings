@@ -9,14 +9,35 @@
    - Brief Overview
    - Purpose of the Analysis
 
-2. **Data Description**
-   - Source of the Dataset
-   - Structure and Format
-   - Variables and Features
+## Data Description 
+### Source of the Dataset
 
-3. **Problem Statement**
-   - Overview of the Problem
-   - Key Objectives
+- The dataset used in this analysis is sourced from Kaggle.
+
+### Structure and Format
+
+- The dataset is presented in Excel.
+- It consists of 393,120 rows and 14 columns.
+
+### Variables and Features
+- The cleaned dataset includes the following key variables and features:
+- 
+#### Example:
+- **Column 1:**
+  - Description: [Provide a short description of what the data in this column represents.]
+
+- **Column 2:**
+  - Description: [Provide a short description of what the data in this column represents.]
+
+- **Column 3:**
+  - Description: [Provide a short description of what the data in this column represents.]
+
+[Continue listing the variables and features as needed.]
+
+
+
+## Problem Statement
+In the context of the given dataset there is a need to conduct a comprehensive data analysis to derive  insights. The analysis will focus on understanding the pricing dynamics, stock availability, seller performance, and the impact of discounts on both product and subcategory ratings. By addressing these questions, we aim to uncover patterns, trends, and relationships within the dataset, providing valuable insights to inform business decisions and strategies.
 
 ## Case Study Questions 
 **Price Metrices:**
