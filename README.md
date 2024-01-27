@@ -17,8 +17,8 @@
 #### Structure and Format
 
 - The dataset is presented in Excel.
-- Currency used is ₹ Indian Rupee
 - It consists of 393,120 rows and 14 columns.
+- Currency used is ₹ Indian Rupee
 
 #### Variables and Features
 The cleaned dataset includes the following key variables and features:
@@ -26,17 +26,17 @@ The cleaned dataset includes the following key variables and features:
 <summary>
 Click to view key variables
 </summary>
-  
-1. product_id: [Provide a short description of what the data in this column represents.]
-2. actual_price: [Provide a short description of what the data in this column represents.]
-3. average_rating: [Provide a short description of what the data in this column represents.]
-4. category: [Provide a short description of what the data in this column represents.]
-5. discount: [Provide a short description of what the data in this column represents.]
-6. out_of_stock: [Provide a short description of what the data in this column represents.]
-7. seller: [Provide a short description of what the data in this column represents.]
-8. selling_price: [Provide a short description of what the data in this column represents.]
-9. sub_category: [Provide a short description of what the data in this column represents.]
-10. brand : [Provide a short description of what the data in this column represents.]
+
+1. **product_id**: Identifier assigned to each unique product in the dataset.
+2. **actual_price**: The original price of the product before any discounts.
+3. **average_rating**: The average customer rating based on reviews for the product.
+4. **category**: The primary grouping/type that defines the product.
+5. **discount**: The reduction percentage applied to the product's original price.
+6. **out_of_stock**: Indicates whether the product is currently unavailable for purchase.
+7. **seller**: The Individual selling the product.
+8. **selling_price**: The current price at which the product is being offered for sale.
+9. **sub_category**: More detailed classification within the main category, providing additional product details.
+10. **brand**: The brand associated with the product.
 
 </details>
 
