@@ -43,15 +43,40 @@ Click to view key variables
 In the context of the given dataset there is a need to conduct a comprehensive data analysis to derive  insights. The analysis will focus on understanding the pricing dynamics, stock availability, seller performance, and the impact of discounts on both product and subcategory ratings. By addressing these questions, we aim to uncover patterns, trends, and relationships within the dataset, providing valuable insights to inform business decisions and strategies.
 
 ## Case Study Questions 
-**Price Metrices:**
 
-1. What is the average actual/selling price?
-3. what are the minimum and maximum actual/selling prices?
+**Price Metrics Analysis:**
 
-**Products:**
+### 1. What is the average actual/selling price?
 
-1. How many products are in & out of stock?
-2. What's the priciest,  top 10 products in the dataset?
+To identify the benchmark of the typical cost of products within the Flipkart dataset, we carried out the Avg of actual product price and the selling price.
+
+| Average of Actual Price | Average of Selling Price |
+| ----------------------- | ------------------------ |
+|        ₹ 1,415.25       |          ₹ 705.58        |
+
+### 2. what are the minimum and maximum actual/selling prices?
+   
+|  Minimum Actual Price   | Minimum  of Selling Price|
+| ----------------------- | ------------------------ |
+|         ₹ 150.00        |         ₹ 99.00          |
+
+|  Maximum Actual Price   | Maximum  of Selling Price|
+| ----------------------- | ------------------------ |
+|       ₹ 12,999          |         ₹ 7,999          |
+
+The range between minimum and maximum prices for both actual and selling prices provides insights into the diversity of pricing within the dataset.
+
+**Product Analysis:**
+
+3. How many products are in & out of stock?
+   
+| Out of stock products      |    1,644     | 5.85%  |
+| -------------------------- | ------------ | ------ |
+| In stock products          |    26,436    | 94.15% |
+
+4. What's the priciest,  top 10 products in the dataset?
+
+
 
 **Seller:**
 
