@@ -70,7 +70,7 @@ The range between minimum and maximum prices for both actual and selling prices 
 
 ## **Product Analysis:**
 
-3. How many products are in & out of stock?
+### 3. How many products are in & out of stock?
    
 | Out of stock products      |    1,644     | 5.85%  |
 | -------------------------- | ------------ | ------ |
@@ -78,9 +78,21 @@ The range between minimum and maximum prices for both actual and selling prices 
 
 Analysing the inventory status of Flipkart's product catalog, it is evident that out of 28,080 products, 5.85% items are currently out of stock. This indicates a relatively small portion of products temporarily unavailable for purchase. On the contrary, a significant majority of Flipkart's inventory, 94.15%, are currently in stock. The balanced distribution between in-stock and out-of-stock items showcases a healthy inventory management approach, catering to the diverse needs of Flipkart's customers.
 
-4. What's the priciest,  top 10 products in the dataset?
+### 4. What's the priciest,  top 5 products in the dataset?
 
+<p align="center"> 
+    <img src="https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/a9ccac9e-d5c0-456d-8441-60534f16cc35" alt="Image">
+</p>
 
+<p align="center">
+  <img src="https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/4522e2ba-2331-4a5e-93bf-5519ecb0f90e" width="210" height="300" alt="Image Alt Text" />
+  <img src="https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/63813536-73e9-4e92-9bda-3f8c71c5b35e" width="150" height="300"alt="Image Alt Text" />
+  <img src="https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/98d9930b-6fbb-4556-9300-ae4488ec7247" width="210" height="300"alt="Image Alt Text" />
+  <img src="https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/37a30105-bcab-4080-84eb-d7c9864353af" width="150" height="300"alt="Image Alt Text" />
+   <img src="https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/570d62ef-8580-4200-9dce-f221dd25b31d" width="210" height="300"alt="Image Alt Text" />
+</p>
+
+All the top 5 priciest products in the dataset share the same price tag of ₹ 12,999. A noteworthy observation is the consistency in product types, with a focus on suits, jackets, and sweatshirts. This suggests that these high-priced items cater to a particular niche or demand for sophisticated and stylish men's apparel.
 
 **Seller:**
 
