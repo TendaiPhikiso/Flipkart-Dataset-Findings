@@ -44,7 +44,9 @@ In the context of the given dataset there is a need to conduct a comprehensive d
 
 ## Case Study Questions 
 
-**Price Metrics Analysis:**
+Delving into the specifics of our product dataset, a noteworthy observation is the presence of 28,080 unique products. They're 498 distinct sellers & 346 brands contributing to the platform's diverse product offerings. The dataset comprises a total of 4 categories and 22 subcategories, reflecting the comprehensive range of offerings available to Flipkarts users.
+
+## Price Metrics Analysis:
 
 ### 1. What is the average actual/selling price?
 
@@ -54,7 +56,7 @@ To identify the benchmark of the typical cost of products within the Flipkart da
 | ----------------------- | ------------------------ |
 |        ₹ 1,415.25       |          ₹ 705.58        |
 
-### 2. what are the minimum and maximum actual/selling prices?
+### 2. What are the minimum and maximum actual/selling prices?
    
 |  Minimum Actual Price   | Minimum  of Selling Price|
 | ----------------------- | ------------------------ |
@@ -66,13 +68,15 @@ To identify the benchmark of the typical cost of products within the Flipkart da
 
 The range between minimum and maximum prices for both actual and selling prices provides insights into the diversity of pricing within the dataset.
 
-**Product Analysis:**
+## **Product Analysis:**
 
 3. How many products are in & out of stock?
    
 | Out of stock products      |    1,644     | 5.85%  |
 | -------------------------- | ------------ | ------ |
 | In stock products          |    26,436    | 94.15% |
+
+Analysing the inventory status of Flipkart's product catalog, it is evident that out of 28,080 products, 5.85% items are currently out of stock. This indicates a relatively small portion of products temporarily unavailable for purchase. On the contrary, a significant majority of Flipkart's inventory, 94.15%, are currently in stock. The balanced distribution between in-stock and out-of-stock items showcases a healthy inventory management approach, catering to the diverse needs of Flipkart's customers.
 
 4. What's the priciest,  top 10 products in the dataset?
 
