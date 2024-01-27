@@ -128,8 +128,25 @@ In the given dataset, out-of-stock products are found in two main categories: Cl
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/780ab92c-ceb9-427d-87fe-9e9490ff38b4)
 
 
-**Discount:**
+## Discount
+### 1. What's the most discounted category Subcategory?
+![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/2e06841c-2b43-457b-833a-c8e5d78d7c08)
 
-1. What's the most discounted category/ Subcategory?
-2. Do you think the discount is responsible for the rating (based on products)? | Analyze the correlation between discount percentages and average ratings.
-3. Do you think the discount is responsible for the rating (sub-categories)?
+### 2. What's the most discounted Subcategory?
+**Most Discounted Subcategories**: Brand Trunk Bags, Wallets & Belts (74%): This subcategory has the highest average discount among all.
+Other notable highly discounted subcategories include Fabrics (66%), Roy Clothing and Accessories (65%), and SUNSHOPPING Bags, Wallets & Belts (63%).
+
+![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/dfa7a8f2-b604-4454-be5f-4202db2ae804)
+
+
+### 3. Do you think the discount is responsible for the rating (based on products)? | Analyse the correlation between discount percentages and average ratings.
+
+In analyzing the scatter plot, a negative relationship between product ratings and discounts is observed. The slope of the line indicates that as the discount increases, the rating tends to decrease. This suggests that the discount does not necessarily have an influence on customers' rating of the product due to a high discount. On average, there is a slight tendency for higher ratings to be associated with slightly lower discounts.
+
+![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/75303c7c-3e8e-42cb-b31b-c4a0c09f20b9)
+
+### 4. Do you think the discount is responsible for the rating (sub-categories)?
+In examining the scatter plot the linear equation y = 0.1346x + 0.0581 reveals a positive relationship between product ratings and discounts. The slope of the line suggests that, on average, as ratings increase, discounts also tend to increase. Based on our data, we can conclude that higher-rated subcategories are associated with higher discounts.
+
+![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/e105cb67-cb22-48ba-93e2-5e57dcdad7f0)
+
