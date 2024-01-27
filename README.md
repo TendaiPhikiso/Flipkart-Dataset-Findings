@@ -4,10 +4,8 @@
 
    ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/a34a5855-26f1-4b7f-a0e8-75f69a341df9)
    
-1. **Introduction**
-   - Brief Overview
-   - Purpose of the Analysis
-
+## Introduction
+Exploring Flipkart's product dataset, our aim is to identify patterns and trends. Following a comprehensive cleanup of the dataset, we've discovered important metrics that provide valuable insights. 
 ## Data Description 
 #### Source of the Dataset
 
