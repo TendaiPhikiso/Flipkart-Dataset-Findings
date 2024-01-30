@@ -98,11 +98,17 @@ All the top 5 priciest products in the dataset share the same price tag of ₹ 1
 
 
 ## **Brand Analysis**
-### 1.Which top 10 brands have the highest product count?
+
+### 1. By rating, which top 10 brands are performing?	
+This analysis reveals the performance of top 10 brands based on weighted averages, combining factors like the number of products and average ratings. Reebok stands out as the top performer with a weighted average of 0.465. Arbour closely follows in the second spot with a weighted average of 0.433. 
+
+![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/ed6e57e2-2b66-4d4e-b09f-1235e42f6f63)
+
+### 2.Which top 10 brands have the highest product count?
  	 
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/801b2ee9-cb65-4601-aa84-d35b29848cf2)
 
-### 2. Create a table showcasing the average actual/selling prices for the top 15 brands that have the highest number of products in the dataset.
+### 3. Create a table showcasing the average actual/selling prices for the top 15 brands that have the highest number of products in the dataset.
 
 #### Actual(Product price)
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/3c5dd501-6ccc-4f98-b704-d5b6fc5e04bd)
