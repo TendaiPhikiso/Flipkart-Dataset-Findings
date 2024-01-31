@@ -45,7 +45,7 @@ In the context of the given dataset there is a need to conduct a comprehensive d
 
 # Case Study Questions 
 
-Delving into the specifics of our product dataset, a noteworthy observation is the presence of **28,080 unique products**. They're **498 distinct sellers** & **346 brands** contributing to the platform's diverse product offerings. The dataset comprises a total of **4 categories and 22 subcategories**, reflecting the comprehensive range of offerings available to Flipkarts users.
+Delving into the specifics of our product dataset, a noteworthy observation is the presence of **28,080 unique products**. There are **498 distinct sellers** & **346 brands** contributing to the platform's diverse product offerings. The dataset comprises a total of **4 categories and 22 subcategories**, reflecting the comprehensive range of offerings available to Flipkarts users.
 
 ## Price Metrics Analysis:
 
@@ -166,9 +166,4 @@ Other notable highly discounted subcategories include Fabrics (66%), Roy Clothin
 In analyzing the scatter plot, a negative relationship between product ratings and discounts is observed. The slope of the line indicates that as the discount increases, the rating tends to decrease. This suggests that the discount does not necessarily have an influence on customers' rating of the product due to a high discount. On average, there is a slight tendency for higher ratings to be associated with slightly lower discounts.
 
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/75303c7c-3e8e-42cb-b31b-c4a0c09f20b9)
-
-### 3. Do you think the discount is responsible for the rating (sub-categories)?
-In examining the scatter plot the linear equation y = 0.1346x + 0.0581 reveals a positive relationship between product ratings and discounts. The slope of the line suggests that, on average, as ratings increase, discounts also tend to increase. Based on our data, we can conclude that higher-rated subcategories are associated with higher discounts.
-
-![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/e105cb67-cb22-48ba-93e2-5e57dcdad7f0)
 
