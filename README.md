@@ -2,14 +2,15 @@
    Flipkart Dataset Findings
  </h2>
  
-  ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/cff6c20c-c143-4d0e-a628-2a4d539efce2)
+  ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/blob/main/Header.png)
 
-[View PDF](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/blob/main/Flipkarts-DataFindings.pdf)
 
    
 # Introduction
 This report delves into the findings from the Flipkart's product dataset. Following a thorough cleanup, we've uncovered noteworthy observations. Our analysis focused on understanding various price metrics, providing a comprehensive view of the seller and actual prices on the platform, examining stock availability, evaluating how sellers and brands are performing, and investigating the impact of discounts on both
-product and subcategory ratings. This report aims to present a clear and comprehensive overview of these dynamics 
+product and subcategory ratings. This report aims to present a clear and comprehensive overview of these dynamics. 
+
+#### Report: [Click to View PDF](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/blob/main/Flipkarts-DataFindings.pdf)
 
 # Data Description 
 #### Source of the Dataset
