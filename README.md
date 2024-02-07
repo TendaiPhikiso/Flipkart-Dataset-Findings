@@ -1,11 +1,15 @@
 <h2 align="center">
    Flipkart Dataset Findings
  </h2>
+ 
+  ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/cff6c20c-c143-4d0e-a628-2a4d539efce2)
 
-   ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/a34a5855-26f1-4b7f-a0e8-75f69a341df9)
+[View PDF](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/blob/main/Flipkarts-DataFindings.pdf)
+
    
 # Introduction
-Exploring Flipkart's product dataset, our aim is to identify patterns and trends. Following a comprehensive cleanup of the dataset, we've discovered important metrics that provide valuable insights. 
+This report delves into the findings from the Flipkart's product dataset. Following a thorough cleanup, we've uncovered noteworthy observations. Our analysis focused on understanding various price metrics, providing a comprehensive view of the seller and actual prices on the platform, examining stock availability, evaluating how sellers and brands are performing, and investigating the impact of discounts on both
+product and subcategory ratings. This report aims to present a clear and comprehensive overview of these dynamics 
 
 # Data Description 
 #### Source of the Dataset
@@ -40,24 +44,25 @@ Click to view key variables
 </details>
 
 
-# Problem Statement
-In the context of the given dataset there is a need to conduct a comprehensive data analysis to derive  insights. The analysis will focus on understanding the pricing dynamics, stock availability, seller performance, and the impact of discounts on both product and subcategory ratings. By addressing these questions, we aim to uncover patterns, trends, and relationships within the dataset, providing valuable insights to inform business decisions and strategies.
-
 # Case Study Questions 
 
-Delving into the specifics of our product dataset, a noteworthy observation is the presence of **28,080 unique products**. There are **498 distinct sellers** & **346 brands** contributing to the platform's diverse product offerings. The dataset comprises a total of **4 categories and 22 subcategories**, reflecting the comprehensive range of offerings available to Flipkarts users.
+Delving into the specifics of our product dataset, a noteworthy observation is the presence of 28,080 unique products.
+
+There are 498 distinct sellers & 346 brands contributing to the platform's diverse product offerings. The dataset comprises a total of 4 categories and 22 subcategories, reflecting the comprehensive range of offerings available to Flipkart’s users.
 
 ## Price Metrics Analysis:
 
 ### 1. What is the average actual/selling price?
 
-To identify the benchmark of the typical cost of products within the Flipkart dataset, we carried out the Avg of actual product price and the selling price.
+To identify the benchmark of the typical cost of products within the Flipkart dataset, we carried out the Avg of actual product price and the selling price
 
 | Average of Actual Price | Average of Selling Price |
 | ----------------------- | ------------------------ |
 |        ₹ 1,415.25       |          ₹ 705.58        |
 
 ### 2. What are the minimum and maximum actual/selling prices?
+
+The range between minimum and maximum prices for both actual and selling prices provides insights into the diversity of pricing within the dataset.
    
 |  Minimum Actual Price   | Minimum  of Selling Price|
 | ----------------------- | ------------------------ |
@@ -67,7 +72,6 @@ To identify the benchmark of the typical cost of products within the Flipkart da
 | ----------------------- | ------------------------ |
 |       ₹ 12,999          |         ₹ 7,999          |
 
-The range between minimum and maximum prices for both actual and selling prices provides insights into the diversity of pricing within the dataset.
 
 ## **Product Analysis**
 
@@ -77,7 +81,8 @@ The range between minimum and maximum prices for both actual and selling prices 
 | -------------------------- | ------------ | ------ |
 | In stock products          |    26,436    | 94.15% |
 
-Analysing the inventory status of Flipkart's product catalog, it is evident that out of 28,080 products, 5.85% items are currently out of stock. This indicates a relatively small portion of products temporarily unavailable for purchase. On the contrary, a significant majority of Flipkart's inventory, 94.15%, are currently in stock. The balanced distribution between in-stock and out-of-stock items showcases a healthy inventory management approach, catering to the diverse needs of Flipkart's customers.
+Analysing the inventory status of Flipkart's product catalog, we found that out of 28,080 products, 5.85% items are currently out of stock. This indicates a relatively small portion of products temporarily 
+unavailable for purchase. On the contrary, a significant majority of Flipkart's inventory, 94.15%, are currently in stock. The balanced distribution between in-stock and out-of-stock items showcases a healthy inventory management approach, catering to the diverse needs of Flipkart's customers.
 
 ### 2. What's the priciest,  top 5 products in the dataset?
 
@@ -95,12 +100,12 @@ Analysing the inventory status of Flipkart's product catalog, it is evident that
 
 All the top 5 priciest products in the dataset share the same price tag of ₹ 12,999. A noteworthy observation is the consistency in product types, with a focus on suits, jackets, and sweatshirts. This suggests that these high-priced items cater to a particular niche or demand for sophisticated and stylish men's apparel.
 
-
-
 ## **Brand Analysis**
 
 ### 1. By rating, which top 10 brands are performing?	
-This analysis reveals the performance of top 10 brands based on weighted averages, combining factors like the number of products and average ratings. Reebok stands out as the top performer with a weighted average of 0.465. Arbour closely follows in the second spot with a weighted average of 0.433. 
+This analysis reveals the performance of top 10 brands based on weighted averages, combining factors like the number of products and average ratings. The weighted average allows for a fair evaluation, giving prominence to brands with a combination of high ratings and a substantial product presence.
+
+In this context, Reebok emerges as the top performer, showcasing consistent excellence across a significant product range. Arbour closely follows in the second spot, demonstrating a commendable balance between quality and quantity. Notably, Keoti, despite having an average rating of 3.82, ranks sixth when considering the weighted average. This highlights the significance of the weighted average, which ensures that both ratings and the number of products contribute meaningfully to how top-performing brands are ranked.
 
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/ed6e57e2-2b66-4d4e-b09f-1235e42f6f63)
 
@@ -120,7 +125,8 @@ This analysis reveals the performance of top 10 brands based on weighted average
 ## **Seller Analysis**
 
 ### 1. By rating who are Flipkarts top sellers?
-Delving into Flipkarts top sellers, from our findings RETAILNET emerges as the top seller with an average rating of 4.11 across 1416 products, ARBOR closely follows with a 4.10 rating and 783 products. However, SANDSMARKETING ranks as a bottom seller with a lower 2.68 rating across 887 products, signalling potential challenges in customer satisfaction.
+
+Delving into Flipkart’s seller ratings, from our findings RETAILNET emerges as the top seller with an average rating of 4.11 across 1416 products, ARBOR closely follows with a 4.10 rating and 783 products. However, SANDSMARKETING ranks as a bottom seller with a lower 2.68 rating across 887 products, signaling potential challenges in customer satisfaction. 
  	 	
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/fc281fc8-a03b-428a-97fa-0fcd342046cf)
 
@@ -132,38 +138,52 @@ Delving into Flipkarts top sellers, from our findings RETAILNET emerges as the t
 ## Categories & Subcategories Analysis
 
 ### 1. By rating, which categories are performing?	 
-While the average rating for Bags, Wallets & Belts is 4.13, indicating positive feedback, it's crucial to note the small sample size of only 41 products within this category. The analysis suggests that caution is needed when considering Bags, Wallets & Belts as the best-performing category. In contrast, Clothing and Accessories, with 27,118 products, provides a much larger dataset for assessing customer preferences.
 
-Weighted rating was carried out as it helped provide a balanced view of  how well  each product category is performing. By taking into account both the number of products and their average ratings, it gives a fair representation of the overall performance, considering not only the variety of products but also how satisfied customers are with them.
+While the average rating for Bags, Wallets & Belts is 4.13, indicating positive feedback, it's crucial to note the small sample size of only 41 products within this category. The analysis suggests that caution is needed when considering Bags, Wallets & Belts as the bestperforming category. In contrast, Clothing and Accessories, with 27,118 products, provides a much larger dataset for assessing customer preferences.
+
+Weighted rating was carried out as it helped provide a balanced view of how well each product category is performing. By taking into account both the number of products and their average ratings, it gives a fair representation of the overall performance, considering not only the variety of products but also how satisfied customers are with them.
 
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/d0f9e2c5-1a3b-4610-9234-d094b76a42af)
 
 ### 2. By rating, which subcategories are performing?
 
-The weighted average rating for subcategories was conducted to offer a comprehensive evaluation of their performance. By considering both the quantity (number of products) and the quality (average rating), this assessment provides insights into the overall success of each subcategory. Notably, Topwear emerges as the top-performing subcategory, excelling in both the diversity of products and customer satisfaction.
+The weighted average rating for subcategories was conducted to offer a comprehensive evaluation of their performance. By considering both the quantity (number of products) and the quality (average rating), this assessment provides insights into the overall success of each subcategory. 
+
+Notably, Topwear emerges as the top-performing subcategory, excelling in both the diversity of products and customer satisfaction.
 
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/0ed28b81-7fb0-4724-9c90-cd0c30f05125)
 
 ### 3. What's the distribution of out of stock products between categories and sub-categories?
-In the given dataset, out-of-stock products are found in two main categories: Clothing & Accessories and Footwear. The distribution of these out-of-stock products differs among subcategories, with the highest numbers in Topwear, followed by Clothing Accessories, Bottomwear & winter wear.
+In the given dataset, out-of-stock products are found in two main categories: Clothing & Accessories and Footwear. 
+
+The distribution of these out-of-stock products differs among subcategories, with the highest numbers in Topwear, followed by Clothing Accessories, Bottomwear & winter wear.
 
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/780ab92c-ceb9-427d-87fe-9e9490ff38b4)
 
 
-## Discount
-<!-- ### 1. What's the most discounted category Subcategory?
-![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/2e06841c-2b43-457b-833a-c8e5d78d7c08) -->
+## Discount Analysis
 
 ### 1. What's the most discounted Subcategory?
-**Most Discounted Subcategories**: Brand Trunk Bags, Wallets & Belts (74%): This subcategory has the highest average discount among all.
-Other notable highly discounted subcategories include Fabrics (66%), Roy Clothing and Accessories (65%), and SUNSHOPPING Bags, Wallets & Belts (63%).
+**Most Discounted Subcategories**: Most Discounted Subcategories: Brand Trunk Bags, Wallets & Belts (74%): This subcategory has the highest average discount among all. 
+
+Other highly discounted subcategories worth noting are Fabrics (66%), Roy Clothing and Accessories (65%), and SUNSHOPPING Bags, Wallets & Belts (63%).
 
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/dfa7a8f2-b604-4454-be5f-4202db2ae804)
 
 
 ### 2. Do you think the discount is responsible for the rating (based on products)? | Analyse the correlation between discount percentages and average ratings.
 
-In analyzing the scatter plot, a negative relationship between product ratings and discounts is observed. The slope of the line indicates that as the discount increases, the rating tends to decrease. This suggests that the discount does not necessarily have an influence on customers' rating of the product due to a high discount. On average, there is a slight tendency for higher ratings to be associated with slightly lower discounts.
+In analysing the scatter plot, a negative relationship between product ratings and discounts is observed. The slope of the line indicates that as the discount increases, the rating tends to decrease.
+
+This suggests that the discount does not necessarily have an influence on customers' rating of the product due to a high discount. On average, there is a slight tendency for higher ratings to be associated with slightly lower discounts.
+
 
 ![image](https://github.com/TendaiPhikiso/Flipkart-Dataset-Findings/assets/57633068/75303c7c-3e8e-42cb-b31b-c4a0c09f20b9)
 
+## Conclusion 
+
+In summary, our analysis highlights Retailnet and Arbor as top-rated sellers, along with Reebok and Arbour as leading brands. The standout subcategory is Topwear. 
+
+Our analysis suggests that offering high discounts does not guarantee better product ratings. It is important to consider other factors such as product quality, sizing as they play a crucial role in customer satisfaction. 
+
+Furthermore, our study reveals a trend where the priciest products are predominantly tailored to men's apparel. These insights provide valuable perspectives on seller and brand dynamics, subcategory performance, and the influential factors shaping customer ratings within the Flipkart platform.
